@@ -1,0 +1,10 @@
+ipython
+pip-tools
+python-dotenv
+loguru
+rich
+typer
+pytest
+black
+isort
+mypy
