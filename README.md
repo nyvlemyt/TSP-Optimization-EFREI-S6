@@ -28,13 +28,16 @@ Notre projet vise à :
 # 🛠️ Technologies utilisées
 
 - **Python 3.12+**
-- **PuLP** : bibliothèque de modélisation linéaire (utilisée pour la résolution du TSP)
-- **NetworkX** : pour la construction du graphe
-- **Matplotlib** : pour la visualisation et les interactions
-- **Visual Studio Code** + **venv** pour l'environnement de développement
+- **PuLP** : bibliothèque principale de modélisation linéaire pour la **résolution du TSP**.
+- **DOcplex** : bibliothèque IBM utilisée pour **construire** et **modéliser** un TSP sous forme mathématique (partie architecture et modélisation uniquement).
+- **NetworkX** : création de graphes pour représenter les villes et les trajets.
+- **Matplotlib** : visualisation dynamique, boutons interactifs pour afficher/cacher le chemin optimal.
+- **Visual Studio Code** + **venv** pour l'environnement de développement.
 
-*(Anciennement prévu : [DOcplex](https://github.com/IBMDecisionOptimization/docplex), mais remplacé pour plus de facilité de mise en place)*
-*(Impossibilité d'installer CPLEX de IBM sur Mac)*
+> **Note :**  
+> Initialement, le projet devait utiliser uniquement **Docplex** avec IBM CPLEX pour tout résoudre, mais **l'impossibilité d'installer CPLEX sur Mac** a forcé l'adaptation vers **PuLP** pour la résolution automatique.  
+> **Docplex est conservé** dans un module spécifique pour montrer la maîtrise de la modélisation avancée.
+
 ---
 
 # 📦 Installation du projet
