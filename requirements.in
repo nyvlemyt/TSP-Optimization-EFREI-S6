@@ -8,3 +8,7 @@ pytest
 black
 isort
 mypy
+pandas
+matplotlib
+networkx
+pulp

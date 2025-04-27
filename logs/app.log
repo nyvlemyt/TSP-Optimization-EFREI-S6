@@ -1,0 +1,26 @@
+2025-04-27 20:37:28 | SUCCESS  | manage_data.generate_data:generate_sample_distance_matrix:39 - Matrice de distances générée avec 15 villes.
+2025-04-27 20:37:28 | SUCCESS  | manage_data.graph_plotter:build_graph:28 - Graphe construit avec 15 nœuds et 105 arêtes.
+2025-04-27 20:37:28 | INFO     | solver.tsp_solver:create_model:53 - Modèle TSP construit avec succès.
+2025-04-27 20:37:28 | INFO     | __main__:main:57 - Modèle construit, résolution en cours...
+2025-04-27 20:37:28 | SUCCESS  | solver.tsp_solver:solve_model:77 - Résolution optimale obtenue.
+2025-04-27 20:37:28 | INFO     | solver.tsp_solver:extract_solution:98 - Arêtes actives sélectionnées : [('Paris', 'Marseille'), ('Lyon', 'Paris'), ('Marseille', 'Nancy'), ('Toulouse', 'Nantes'), ('Nantes', 'Bordeaux'), ('Bordeaux', 'Rennes'), ('Strasbourg', 'Lyon'), ('Lille', 'Montpellier'), ('Nice', 'Strasbourg'), ('Rennes', 'Lille'), ('Grenoble', 'Toulouse'), ('Montpellier', 'Nice'), ('Le Havre', 'Dijon'), ('Nancy', 'Le Havre'), ('Dijon', 'Grenoble')]
+2025-04-27 20:37:28 | DEBUG    | solver.tsp_solver:extract_solution:116 - Étape 0: Paris -> Marseille
+2025-04-27 20:37:28 | DEBUG    | solver.tsp_solver:extract_solution:116 - Étape 1: Marseille -> Nancy
+2025-04-27 20:37:28 | DEBUG    | solver.tsp_solver:extract_solution:116 - Étape 2: Nancy -> Le Havre
+2025-04-27 20:37:28 | DEBUG    | solver.tsp_solver:extract_solution:116 - Étape 3: Le Havre -> Dijon
+2025-04-27 20:37:28 | DEBUG    | solver.tsp_solver:extract_solution:116 - Étape 4: Dijon -> Grenoble
+2025-04-27 20:37:28 | DEBUG    | solver.tsp_solver:extract_solution:116 - Étape 5: Grenoble -> Toulouse
+2025-04-27 20:37:28 | DEBUG    | solver.tsp_solver:extract_solution:116 - Étape 6: Toulouse -> Nantes
+2025-04-27 20:37:28 | DEBUG    | solver.tsp_solver:extract_solution:116 - Étape 7: Nantes -> Bordeaux
+2025-04-27 20:37:28 | DEBUG    | solver.tsp_solver:extract_solution:116 - Étape 8: Bordeaux -> Rennes
+2025-04-27 20:37:28 | DEBUG    | solver.tsp_solver:extract_solution:116 - Étape 9: Rennes -> Lille
+2025-04-27 20:37:28 | DEBUG    | solver.tsp_solver:extract_solution:116 - Étape 10: Lille -> Montpellier
+2025-04-27 20:37:28 | DEBUG    | solver.tsp_solver:extract_solution:116 - Étape 11: Montpellier -> Nice
+2025-04-27 20:37:28 | DEBUG    | solver.tsp_solver:extract_solution:116 - Étape 12: Nice -> Strasbourg
+2025-04-27 20:37:28 | DEBUG    | solver.tsp_solver:extract_solution:116 - Étape 13: Strasbourg -> Lyon
+2025-04-27 20:37:28 | SUCCESS  | solver.tsp_solver:display_solution:147 - 
+========= SOLUTION TSP =========
+Ordre optimal : Paris -> Marseille -> Nancy -> Le Havre -> Dijon -> Grenoble -> Toulouse -> Nantes -> Bordeaux -> Rennes -> Lille -> Montpellier -> Nice -> Strasbourg -> Lyon -> Paris
+Distance totale estimée : 3153.00 km
+================================
+
