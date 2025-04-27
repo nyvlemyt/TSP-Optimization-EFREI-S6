@@ -21,6 +21,8 @@ cycler==0.12.1
     # via matplotlib
 decorator==5.2.1
     # via ipython
+docplex==2.29.241
+    # via -r requirements.in
 executing==2.2.0
     # via stack-data
 fonttools==4.57.0
@@ -119,6 +121,7 @@ shellingham==1.5.4
     # via typer
 six==1.17.0
     # via
+    #   docplex
     #   python-dateutil
 stack-data==0.6.3
     # via ipython
