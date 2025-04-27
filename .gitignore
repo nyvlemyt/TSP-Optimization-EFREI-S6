@@ -1,0 +1,41 @@
+# Ignore les environnements virtuels Python
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore les fichiers temporaires
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Ignore les fichiers de l'éditeur
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore les fichiers systèmes macOS
+.DS_Store
+
+# Ignore les fichiers système Windows
+Thumbs.db
+Desktop.ini
+
+# Ignore les outputs matplotlib / cache
+.matplotlib/
+
+# Ignore les fichiers de dépendances locaux
+pip-wheel-metadata/
+
+# Ignore les résultats de jupyter
+.ipynb_checkpoints/
+
+# Ignore les fichiers de build
+build/
+dist/
+*.egg-info/
