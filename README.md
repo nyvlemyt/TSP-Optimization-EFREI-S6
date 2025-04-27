@@ -142,8 +142,8 @@ TSP-Optimization-EFREI-S6/
 
 # 📄 Rapport & Présentation
 
-- 📚 [Rapport du projet (PDF)](https://github.com/nyvlemyt/TSP-Optimization-EFREI-S6/blob/main/rapport.pdf) 
-- 🎮 [Présentation orale (PDF)](https://github.com/nyvlemyt/TSP-Optimization-EFREI-S6/blob/main/presentation.pdf)
+- 📚 [Rapport du projet (PDF)](https://github.com/nyvlemyt/TSP-Optimization-EFREI-S6/blob/main/Rapport.pdf) 
+- 🎮 [Présentation orale (PDF)](https://github.com/nyvlemyt/TSP-Optimization-EFREI-S6/blob/main/Presentation.pdf)
 
 ---
 
